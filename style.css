@@ -1,0 +1,95 @@
+body {
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 80%;
+    height: 300px;
+    width: 250px;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#aaff00 0%, #00ffff 100%);
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#name {
+    font-size: 40px;
+    text-decoration-color: aqua;
+}
+
+.parallax-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.menu {
+    background-color: gold;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    margin-top: 0px;
+    top: 0px;
+    right: 30px;
+    cursor: text;
+}
+
+.links {
+    display: inline;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: #ffff00;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: darkgoldenrod;
+    text-shadow: 2px 2px gainsboro;
+}
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+#contact {
+    background-color: chartreuse;
+}
+#contact iframe{
+    width: 100%;
+}
+.contact1 h3{
+    display:inline;
+}
+.contact1 a{
+    color:black;
+    text-shadow: none;
+}
